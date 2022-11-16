@@ -111,3 +111,19 @@ section{
 }
 
 /* FOOTER */
+footer{
+    background-color: black;
+}
+.piede{
+    color:white;
+    justify-content: space-between;
+    padding: 10px;
+}
+.piede ul li{
+    font-size: 11px;
+    padding-right: 10px;
+}
+.piede div:nth-last-of-type(1) ul li{
+    padding-right: 0;
+    padding-left: 10px;
+}
