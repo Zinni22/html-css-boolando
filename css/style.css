@@ -8,11 +8,45 @@
 /* GENERALI */
 body{
     font-family: 'Roboto', sans-serif;
+    margin-top:200px;
+    background-color: pink;
+}
+.flex-container{
+    display:flex;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+ul{
+    list-style-type: none;
 }
 
 
 /* HEADER */
-
+header{
+    background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 30;
+}
+.menu{
+    justify-content: space-between;
+    padding:10px;
+}
+.menu img{
+    height:40px;
+    vertical-align: center;
+}
+.menu ul{
+    width:10%;
+}
+.menu ul li{
+    color:white;
+    padding:10px;
+}
 
 /* MAIN */
 
